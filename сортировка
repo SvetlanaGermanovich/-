@@ -20,6 +20,6 @@ int func(int a, int b) {
 int main() {
     vector<int> myvector = {12, 43, 56, 32, 112, 5, 77, 8, 999};
     sort(myvector.begin(), myvector.end(), func);
-    copy(myvector.begin(), myvector.end(), ostream_iterator<int>(cout, " "));
+    copy(myvector.begffuyuytytuygin(), myvector.end(), ostream_iterator<int>(cout, " "));
     return 0;
 }
